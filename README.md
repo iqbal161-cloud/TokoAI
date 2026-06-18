@@ -206,13 +206,6 @@ Pastikan environment variable `NEXT_PUBLIC_SUPABASE_URL` dan `NEXT_PUBLIC_SUPABA
 
 Model Gemini terus diperbarui oleh Google, sehingga nama model seperti `gemini-1.5-flash` dapat dideprecate. Gunakan model yang sedang aktif, contohnya `gemini-2.0-flash`, dan sesuaikan di seluruh API route (`generate-konten`, `catat-transaksi`, `generate-template`).
 
-## 📊 Kriteria Penilaian yang Dijawab
-
-- **Kesesuaian Tema**: AI digunakan secara langsung pada seluruh fitur inti (konten, keuangan, layanan pelanggan), bukan sebagai pelengkap.
-- **Manfaat untuk UMKM**: Menjawab tiga pain point utama UMKM Indonesia — pemasaran digital, pencatatan keuangan, dan respons pelanggan.
-- **Desain & Kemudahan Penggunaan**: Antarmuka berbasis chat yang familiar, mendukung pengguna non-teknis.
-- **Data Real-time**: Seluruh data tersimpan dan diproses secara real-time melalui Supabase, bukan data dummy.
-
 ## 🇮🇩 Dibuat Untuk
 
 UMKM Indonesia — dengan harapan dapat membantu pelaku usaha kecil bersaing lebih setara di ekosistem digital.
