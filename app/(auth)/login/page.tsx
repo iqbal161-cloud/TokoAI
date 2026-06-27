@@ -35,7 +35,13 @@ export default function LoginPage() {
         router.push('/dashboard')
       }
     } else {
-      const { data, error } = await supabase.auth.signUp({ email, password })
+      const { data, error } = await supabase.auth.signUp({ 
+        email, 
+        password,
+        options: {
+          data: { nama_toko: namaToko }
+        }
+      })
       if (error) {
         setError('Gagal daftar: ' + error.message)
       } else if (data.user) {
